@@ -31,12 +31,12 @@ export const ui = {
     // Intro Card
     'intro.welcome': 'Welcome',
     'intro.title':
-      "Hi, I'm <b>Rafael Rubén Jorge González</b>. "+
-      "Computer Science Engineer with work experience oriented to software "+
-      "development in Odoo and Frappe / ERPnext. Great skills in data analysis "+
-      "and nonconformity management; competent in design, development and "+
-      "software optimization providing creative solutions and improving the "+
-      "user experience. Committed to the creative and technical excellence.",
+      "Hi, I'm <b>Rafael Rubén Jorge González</b>. " +
+      'Computer Science Engineer with work experience oriented to software ' +
+      'development in Odoo and Frappe / ERPnext. Great skills in data analysis ' +
+      'and nonconformity management; competent in design, development and ' +
+      'software optimization providing creative solutions and improving the ' +
+      'user experience. Committed to the creative and technical excellence.',
     'intro.sr.github': 'GitHub Profile',
     'intro.sr.linkedin': 'Linkedin Profile',
     'intro.sr.email': 'Email contact',
@@ -47,7 +47,7 @@ export const ui = {
       "Hi, I'm Rafael Rubén Jorge González, a Odoo software developer from Cuba 🇨🇺.",
     'about.tools': 'My primary tools of choice includes:',
     'about.hobbies':
-      "Beyond programming, I enjoy playing chess, reading science fiction novels.",
+      'Beyond programming, I enjoy playing chess, reading science fiction novels.',
 
     // Now Card
     'now.title': 'Now',
@@ -99,7 +99,7 @@ export const ui = {
     // Home Page
     'home.title': 'Rafael Rubén - Computer Science Engineer',
     'home.description':
-      'Rafael Rubén - Computer Science Engineer - Portfolio, Projects, '+
+      'Rafael Rubén - Computer Science Engineer - Portfolio, Projects, ' +
       'CV, About Me, Contact, Timezone, Now, Experience, Study',
     'home.portfolio': 'Portfolio & Projects',
 
@@ -121,82 +121,63 @@ export const ui = {
     'experience.desoft.position': 'Software Engineer',
     'experience.desoft.location': 'Villa Clara, Cuba',
     'experience.desoft.tasks.0':
-      'I made the design and implementation of software in Odoo for the management '+
+      'I made the design and implementation of software in Odoo for the management ' +
       'of on-call hours and their calculation in the Human Resources pay roll.',
     'experience.desoft.tasks.1':
-      'I participated in the maintenance and implementation of modules in Odoo for '+
+      'I participated in the maintenance and implementation of modules in Odoo for ' +
       'the management of food, reaching 100 percent than fore seen in the implementation plans.',
     'experience.desoft.tasks.2':
-      'I participated in the maintenance of modules in Odoo for the management of '+
+      'I participated in the maintenance of modules in Odoo for the management of ' +
       'the recruitment process by customizing to the needs of the customer.',
 
     // Experience - Peoplewalking
     'experience.peoplewalking.company': 'Peoplewalking',
     'experience.peoplewalking.position': 'Software Developer',
     'experience.peoplewalking.location': 'Spain',
-    'experience.peoplewalking.tasks.0':
-      '',
-    'experience.peoplewalking.tasks.1':
-      '',
-    'experience.peoplewalking.tasks.2':
-      '',
+    'experience.peoplewalking.tasks.0': '',
+    'experience.peoplewalking.tasks.1': '',
+    'experience.peoplewalking.tasks.2': '',
 
     // Experience - Soft System
     'experience.soft_system.company': 'Soft System',
     'experience.soft_system.position': 'Software Developer',
     'experience.soft_system.location': 'Perú',
-    'experience.soft_system.tasks.0':
-      '',
-    'experience.soft_system.tasks.1':
-      '',
-    'experience.soft_system.tasks.2':
-      '',
-    'experience.soft_system.tasks.3':
-      '',
+    'experience.soft_system.tasks.0': '',
+    'experience.soft_system.tasks.1': '',
+    'experience.soft_system.tasks.2': '',
+    'experience.soft_system.tasks.3': '',
 
     // Experience - iguanait
     'experience.iguanait.company': 'Iguanait',
     'experience.iguanait.position': 'Software Developer',
     'experience.iguanait.location': 'Spain',
-    'experience.iguanait.tasks.0':
-      '',
-    'experience.iguanait.tasks.1':
-      '',
-    'experience.iguanait.tasks.2':
-      '',
+    'experience.iguanait.tasks.0': '',
+    'experience.iguanait.tasks.1': '',
+    'experience.iguanait.tasks.2': '',
 
     // Experience - jaelsolution
     'experience.jaelsolution.company': 'Jael Solution',
     'experience.jaelsolution.position': 'Software Developer',
     'experience.jaelsolution.location': 'República Dominicana',
-    'experience.jaelsolution.tasks.0':
-      '',
-    'experience.jaelsolution.tasks.1':
-      '',
-    'experience.jaelsolution.tasks.2':
-      '',
+    'experience.jaelsolution.tasks.0': '',
+    'experience.jaelsolution.tasks.1': '',
+    'experience.jaelsolution.tasks.2': '',
 
-    // Experience - IdooGroup 
+    // Experience - IdooGroup
     'experience.idoogroup.company': 'IdooGroup',
     'experience.idoogroup.position': 'Software Developer',
     'experience.idoogroup.location': 'México',
-    'experience.idoogroup.tasks.0':
-      '',
-    'experience.idoogroup.tasks.1':
-      '',
-    'experience.idoogroup.tasks.2':
-      '',
+    'experience.idoogroup.tasks.0': '',
+    'experience.idoogroup.tasks.1': '',
+    'experience.idoogroup.tasks.2': '',
 
     // Experience - onreserva
     'experience.onreserva.company': 'Reserva Trading España, SL',
     'experience.onreserva.position': 'Software Developer',
     'experience.onreserva.location': 'Madrid, Spain',
-    'experience.onreserva.tasks.0':
-      '',
-    'experience.onreserva.tasks.1':
-      '',
-    'experience.onreserva.tasks.2':
-      '',
+    'experience.onreserva.tasks.0': '',
+    'experience.onreserva.tasks.1': '',
+    'experience.onreserva.tasks.2': '',
   },
   es: {
     // Navigation
@@ -209,13 +190,13 @@ export const ui = {
     // Intro Card
     'intro.welcome': 'bienvenido',
     'intro.title':
-      "Hola soy <b>Rafael Rubén Jorge González</b>. "+
-      "Ingeniero en Ciencias Informáticas con experiencia laboral orientada al desarrollo "+
-      "de software en Odoo y Frappe/ERPnext. Grandes habilidades en análisis de datos "+
-      "y gestión de no conformidades; competente en diseño, desarrollo y "+
-      "optimización de software brindando soluciones creativas y mejorando la "+
-      "experiencia de usuario. Comprometido con la excelencia creativa y técnica.",
-    
+      'Hola soy <b>Rafael Rubén Jorge González</b>. ' +
+      'Ingeniero en Ciencias Informáticas con experiencia laboral orientada al desarrollo ' +
+      'de software en Odoo y Frappe/ERPnext. Grandes habilidades en análisis de datos ' +
+      'y gestión de no conformidades; competente en diseño, desarrollo y ' +
+      'optimización de software brindando soluciones creativas y mejorando la ' +
+      'experiencia de usuario. Comprometido con la excelencia creativa y técnica.',
+
     'intro.sr.github': 'Perfil de GitHub',
     'intro.sr.linkedin': 'Perfil de Linkedin',
     'intro.sr.email': 'Contacto por correo',
@@ -278,14 +259,13 @@ export const ui = {
     // Home Page
     'home.title': 'Rafael Rubén - Computer Science Engineer',
     'home.description':
-      'Rafael Rubén Jorge González - Ingeniero en Ciencias de la Computación '+
-      '- Portafolio, Proyectos, CV, Acerca de Mí, Contacto, Zona Horaria, Ahora, '+
+      'Rafael Rubén Jorge González - Ingeniero en Ciencias de la Computación ' +
+      '- Portafolio, Proyectos, CV, Acerca de Mí, Contacto, Zona Horaria, Ahora, ' +
       'Experiencia, Estudios',
     'home.portfolio': 'Portafolio y Proyectos',
 
     // Quote
-    'quote.text':
-      'Vale más un minuto de pie que una vida de rodillas.',
+    'quote.text': 'Vale más un minuto de pie que una vida de rodillas.',
     'quote.author': '- José Martí',
 
     // Footer
@@ -297,87 +277,68 @@ export const ui = {
     // Experience - Common
     'experience.current': 'Actual',
 
-   // Experience - Desoft
+    // Experience - Desoft
     'experience.desoft.company': 'Desoft',
     'experience.desoft.position': 'Software Engineer',
     'experience.desoft.location': 'Villa Clara, Cuba',
     'experience.desoft.tasks.0':
-      'I made the design and implementation of software in Odoo for the management '+
+      'I made the design and implementation of software in Odoo for the management ' +
       'of on-call hours and their calculation in the Human Resources pay roll.',
     'experience.desoft.tasks.1':
-      'I participated in the maintenance and implementation of modules in Odoo for '+
+      'I participated in the maintenance and implementation of modules in Odoo for ' +
       'the management of food, reaching 100 percent than fore seen in the implementation plans.',
     'experience.desoft.tasks.2':
-      'I participated in the maintenance of modules in Odoo for the management of '+
+      'I participated in the maintenance of modules in Odoo for the management of ' +
       'the recruitment process by customizing to the needs of the customer.',
 
     // Experience - Peoplewalking
     'experience.peoplewalking.company': 'Peoplewalking',
     'experience.peoplewalking.position': 'Software Developer',
     'experience.peoplewalking.location': 'Spain',
-    'experience.peoplewalking.tasks.0':
-      '',
-    'experience.peoplewalking.tasks.1':
-      '',
-    'experience.peoplewalking.tasks.2':
-      '',
+    'experience.peoplewalking.tasks.0': '',
+    'experience.peoplewalking.tasks.1': '',
+    'experience.peoplewalking.tasks.2': '',
 
     // Experience - Soft System
     'experience.soft_system.company': 'Soft System',
     'experience.soft_system.position': 'Software Developer',
     'experience.soft_system.location': 'Perú',
-    'experience.soft_system.tasks.0':
-      '',
-    'experience.soft_system.tasks.1':
-      '',
-    'experience.soft_system.tasks.2':
-      '',
-    'experience.soft_system.tasks.3':
-      '',
+    'experience.soft_system.tasks.0': '',
+    'experience.soft_system.tasks.1': '',
+    'experience.soft_system.tasks.2': '',
+    'experience.soft_system.tasks.3': '',
 
     // Experience - iguanait
     'experience.iguanait.company': 'Iguanait',
     'experience.iguanait.position': 'Software Developer',
     'experience.iguanait.location': 'Spain',
-    'experience.iguanait.tasks.0':
-      '',
-    'experience.iguanait.tasks.1':
-      '',
-    'experience.iguanait.tasks.2':
-      '',
+    'experience.iguanait.tasks.0': '',
+    'experience.iguanait.tasks.1': '',
+    'experience.iguanait.tasks.2': '',
 
     // Experience - jaelsolution
     'experience.jaelsolution.company': 'Jael Solution',
     'experience.jaelsolution.position': 'Software Developer',
     'experience.jaelsolution.location': 'República Dominicana',
-    'experience.jaelsolution.tasks.0':
-      '',
-    'experience.jaelsolution.tasks.1':
-      '',
-    'experience.jaelsolution.tasks.2':
-      '',
+    'experience.jaelsolution.tasks.0': '',
+    'experience.jaelsolution.tasks.1': '',
+    'experience.jaelsolution.tasks.2': '',
 
-    // Experience - IdooGroup 
+    // Experience - IdooGroup
     'experience.idoogroup.company': 'IdooGroup',
     'experience.idoogroup.position': 'Software Developer',
     'experience.idoogroup.location': 'México',
-    'experience.idoogroup.tasks.0':
-      '',
-    'experience.idoogroup.tasks.1':
-      '',
-    'experience.idoogroup.tasks.2':
-      '',
+    'experience.idoogroup.tasks.0': '',
+    'experience.idoogroup.tasks.1': '',
+    'experience.idoogroup.tasks.2': '',
 
     // Experience - onreserva
     'experience.onreserva.company': 'Reserva Trading España, SL',
     'experience.onreserva.position': 'Software Developer',
     'experience.onreserva.location': 'Madrid, Spain',
-    'experience.onreserva.tasks.0':
-      '',
-    'experience.onreserva.tasks.1':
-      '',
-    'experience.onreserva.tasks.2':
-      '',
+    'experience.onreserva.tasks.0': '',
+    'experience.onreserva.tasks.1': '',
+    'experience.onreserva.tasks.2': '',
   },
 } as const
 
