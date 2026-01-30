@@ -19,14 +19,23 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version-file: .nvmrc
+          node-version: 18
           cache: pnpm
           cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
-      - name: Format with Prettier
+      # When autofix is enabled (set repo or org variable ENABLE_AUTOFIX_CI='true'),
+      # we write changes and let the app create/update a PR.
+      - name: Format with Prettier (write)
+        if: ${{ vars.ENABLE_AUTOFIX_CI == 'true' }}
         run: pnpm exec prettier -w . "!.github"
 
       - name: Run autofix.ci
+        if: ${{ vars.ENABLE_AUTOFIX_CI == 'true' }}
         uses: autofix-ci/action@v1.3
+
+      # Otherwise, enforce formatting without trying to use the app.
+      - name: Format check with Prettier
+        if: ${{ vars.ENABLE_AUTOFIX_CI != 'true' }}
+        run: pnpm exec prettier -c . "!.github"
