@@ -57,3 +57,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+img.rounded-img-avatar {
+  border-radius: 15px;
+  border: 2px solid #ccc;
+}

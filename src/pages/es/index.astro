@@ -8,7 +8,6 @@ import ContactsCard from '../../components/sections/ContactsCard.astro'
 import Now from '../../components/sections/Now.astro'
 import CVCard from '../../components/sections/CVCard.astro'
 import ExperienceCard from '../../components/sections/ExperienceCard.astro'
-import TattooCard from '../../components/sections/TattooCard.astro'
 import StudyCard from '../../components/sections/StudyCard.astro'
 import {
   getLangFromUrl,
@@ -112,7 +111,6 @@ const translatePath = useTranslatedPath(lang)
         <p class="mt-2 text-xs">{t('quote.author')}</p>
       </div>
     </Card>
-    <!-- <TattooCard /> -->
     <StudyCard />
   </main>
 </BaseLayout>
