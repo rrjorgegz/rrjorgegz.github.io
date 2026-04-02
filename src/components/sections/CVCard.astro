@@ -4,9 +4,11 @@ import Card from '../Card.astro'
 import { Button } from '../ui/button'
 import { getLangFromUrl, useTranslations } from '../../i18n/utils'
 
-const PDF = '/CV English.pdf'
+const PDF_EN = '/Rafael_R_CV_EN.pdf'
+const PDF_ES = '/Rafael_R_CV_ES.pdf'
 const lang = getLangFromUrl(Astro.url)
 const t = useTranslations(lang)
+const PDF = lang === 'es' ? PDF_ES : PDF_EN
 ---
 
 <Card colSpan="md:col-span-1" rowSpan="md:row-span-4" title={t('cv.title')}>
@@ -21,7 +23,7 @@ const t = useTranslations(lang)
         <p class="text-sm text-muted-foreground">
           {t('cv.description')}
         </p>
-        <div class="card-actions mt-2 flex w-full items-center justify-center">
+        <div class="card-actions mt-2 flex w-full items-center justify-center gap-2">
           <a target="_blank" href={PDF}>
             <Button>
               {t('cv.download')}

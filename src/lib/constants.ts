@@ -17,10 +17,10 @@ export const LINKS = {
 
 // Global
 export const SITE: Site = {
-  TITLE: 'Astro Sphere',
+  TITLE: 'Rafael Rubén - Senior ERP Developer',
   DESCRIPTION:
-    'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn',
+    'Rafael Rubén Jorge González - Computer Science Engineer | Senior ERP Developer — Odoo & Frappe/ERPNext',
+  AUTHOR: 'Rafael Rubén Jorge González',
 }
 
 // Work Page
@@ -59,45 +59,45 @@ export const STUDIES = [
 
 export const EXPERIENCE = [
   {
-    id: 'desoft',
-    start: '2020',
-    link: 'https://www.desoft.cu/',
-    end: 'Current',
-  },
-  {
-    id: 'peoplewalking',
-    start: '2023',
-    link: 'https://www.peoplewalking.com/',
-    end: '2023 ',
-  },
-  {
-    id: 'soft_system',
-    start: '2023',
-    link: '',
-    end: '2023',
-  },
-  {
-    id: 'iguanait',
-    start: '2023',
-    link: 'https://www.iguanait.com/',
-    end: '2024',
-  },
-  {
-    id: 'jaelsolution',
-    start: '2024',
-    link: 'https://jaelsolution.com/',
-    end: '2024',
+    id: 'onreserva',
+    start: 'Sept 2025',
+    link: 'https://www.onreserva.com/',
+    end: 'Mar 2026',
   },
   {
     id: 'idoogroup',
-    start: '2024',
+    start: 'Dec 2024',
     link: 'https://www.idoogroup.com/',
-    end: '2025',
+    end: 'Aug 2025',
   },
   {
-    id: 'onreserva',
-    start: '2025',
-    link: 'https://www.onreserva.com/',
-    end: 'Current',
+    id: 'jaelsolution',
+    start: 'Sept 2024',
+    link: 'https://jaelsolution.com/',
+    end: 'Nov 2024',
+  },
+  {
+    id: 'soft_system',
+    start: 'Jun 2024',
+    link: '',
+    end: 'Jul 2024',
+  },
+  {
+    id: 'iguanait',
+    start: 'Aug 2023',
+    link: 'https://www.iguanait.com/',
+    end: 'May 2024',
+  },
+  {
+    id: 'peoplewalking',
+    start: 'Jan 2023',
+    link: 'https://www.peoplewalking.com/',
+    end: 'Jun 2023',
+  },
+  {
+    id: 'desoft',
+    start: 'Nov 2020',
+    link: 'https://www.desoft.cu/',
+    end: 'Dec 2022',
   },
 ]

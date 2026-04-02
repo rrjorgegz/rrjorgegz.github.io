@@ -10,8 +10,8 @@ const t = useTranslations(lang)
 ---
 
 <Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
-  <div class="flex h-full w-full">
-    <div class="flex flex-col justify-between gap-4 md:max-h-[350px]">
+  <div class="flex h-full w-full flex-col-reverse items-center gap-4 md:flex-row md:items-start">
+    <div class="flex flex-1 flex-col justify-between gap-4 md:max-h-[350px]">
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">
           {t('intro.welcome')}
@@ -43,7 +43,7 @@ const t = useTranslations(lang)
       width="300"
       height="300"
       alt="Avatar of rrjorgegz"
-      class="rounded-img-avatar pointer-events-none absolute bottom-[-20px] right-[-110px] z-[-1] max-h-[300px] w-auto select-none opacity-50 md:relative md:bottom-auto md:right-auto md:z-auto md:opacity-100"
+      class="rounded-img-avatar pointer-events-none max-h-[150px] w-auto select-none sm:max-h-[200px] md:max-h-[300px]"
       src="https://avatars.githubusercontent.com/u/101665649?v=4"
     />
   </div>

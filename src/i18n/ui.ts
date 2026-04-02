@@ -32,11 +32,9 @@ export const ui = {
     'intro.welcome': 'Welcome',
     'intro.title':
       "Hi, I'm <b>Rafael Rubén Jorge González</b>. " +
-      'Computer Science Engineer with work experience oriented to software ' +
-      'development in Odoo and Frappe / ERPnext. Great skills in data analysis ' +
-      'and nonconformity management; competent in design, development and ' +
-      'software optimization providing creative solutions and improving the ' +
-      'user experience. Committed to the creative and technical excellence.',
+      'Computer Science Engineer with 5+ years of experience in the full development cycle of ERP solutions. ' +
+      'Specialized in Odoo (versions 12–18) and Frappe/ERPNext, with expertise in module design, ' +
+      'version migrations, API integration (REST, XML-RPC, JSON-RPC), and deployment automation with Docker and CI/CD.',
     'intro.sr.github': 'GitHub Profile',
     'intro.sr.linkedin': 'Linkedin Profile',
     'intro.sr.email': 'Email contact',
@@ -44,7 +42,9 @@ export const ui = {
     // About Me
     'about.title': 'About me',
     'about.description':
-      "Hi, I'm Rafael Rubén Jorge González, a Odoo software developer from Cuba 🇨🇺.",
+      "Hi, I'm Rafael Rubén Jorge González, a Senior ERP Developer from Cuba 🇨🇺. " +
+      'Led and implemented functional solutions for companies across 5 countries (Cuba, Spain, Peru, Mexico, Dominican Republic) ' +
+      'covering payroll, accounting, point of sale, electronic invoicing, and sales management.',
     'about.tools': 'My primary tools of choice includes:',
     'about.hobbies':
       'Beyond programming, I enjoy playing chess, reading science fiction novels.',
@@ -52,7 +52,7 @@ export const ui = {
     // Now Card
     'now.title': 'Now',
     'now.whatsThat': "what's that ?",
-    'now.description': 'Currently working as Odoo software developer',
+    'now.description': 'Currently working as Senior ERP Developer',
 
     // Experience Card
     'experience.title': 'Experience',
@@ -97,9 +97,9 @@ export const ui = {
     '404.goHome': 'Go back home',
 
     // Home Page
-    'home.title': 'Rafael Rubén - Computer Science Engineer',
+    'home.title': 'Rafael Rubén - Senior ERP Developer | Odoo & Frappe/ERPNext',
     'home.description':
-      'Rafael Rubén - Computer Science Engineer - Portfolio, Projects, ' +
+      'Rafael Rubén Jorge González - Computer Science Engineer | Senior ERP Developer - Portfolio, Projects, ' +
       'CV, About Me, Contact, Timezone, Now, Experience, Study',
     'home.portfolio': 'Portfolio & Projects',
 
@@ -117,68 +117,75 @@ export const ui = {
     'experience.current': 'Current',
 
     // Experience - Desoft
-    'experience.desoft.company': 'Desoft',
-    'experience.desoft.position': 'Software Engineer',
+    'experience.desoft.company': 'Desoft VC',
+    'experience.desoft.position': 'Odoo Developer',
     'experience.desoft.location': 'Villa Clara, Cuba',
     'experience.desoft.tasks.0':
-      'I made the design and implementation of software in Odoo for the management ' +
-      'of on-call hours and their calculation in the Human Resources pay roll.',
+      'Designed and implemented an Odoo module for on-call hours management and its automatic integration into the Human Resources payroll calculation.',
     'experience.desoft.tasks.1':
-      'I participated in the maintenance and implementation of modules in Odoo for ' +
-      'the management of food, reaching 100 percent than fore seen in the implementation plans.',
+      'Implemented modules for food cost management, achieving 100% compliance with implementation plans.',
     'experience.desoft.tasks.2':
-      'I participated in the maintenance of modules in Odoo for the management of ' +
-      'the recruitment process by customizing to the needs of the customer.',
+      'Customized the recruitment module adapting it to the specific workflows and needs of each client.',
 
     // Experience - Peoplewalking
     'experience.peoplewalking.company': 'Peoplewalking',
-    'experience.peoplewalking.position': 'Software Developer',
+    'experience.peoplewalking.position': 'Odoo Developer',
     'experience.peoplewalking.location': 'Spain',
     'experience.peoplewalking.tasks.0':
-      'I designed, researched and implemented an Odoo module for EAN barcode management 128, completed as planned in the implementation plans.',
+      'Researched, designed, and implemented an Odoo module for EAN-128 barcode management, delivered within 100% of the planned timeline.',
     'experience.peoplewalking.tasks.1':
-      'Participated in the maintenance of Odoo modules for contact management and report generation according to client needs.',
+      'Maintained and optimized contact management and report generation modules according to evolving client requirements.',
 
     // Experience - Soft System
     'experience.soft_system.company': 'Soft System',
-    'experience.soft_system.position': 'Software Developer',
-    'experience.soft_system.location': 'Perú',
+    'experience.soft_system.position': 'Odoo Developer',
+    'experience.soft_system.location': 'Peru',
     'experience.soft_system.tasks.0':
-      'I participated in the development and implementation of software for sales management at the Odoo point of sale, increased customer satisfaction.',
+      'Developed features for the Point of Sale (POS) module in Odoo, improving user experience and transaction processing speed.',
     'experience.soft_system.tasks.1':
-      'I participated in the maintenance of Odoo modules for adaptation in their processes and generation of reports.',
+      'Adapted existing modules to local business processes and generated custom reports (QWeb) for management decision-making.',
 
     // Experience - iguanait
-    'experience.iguanait.company': 'Iguanait',
-    'experience.iguanait.position': 'Software Developer',
+    'experience.iguanait.company': 'Iguana IT',
+    'experience.iguanait.position': 'Frappe/ERPNext Developer',
     'experience.iguanait.location': 'Spain',
     'experience.iguanait.tasks.0':
-      'I realized the design and implementation of software for the management of sending invoices to the SII in Frappe / ERPNext.',
+      'Designed and implemented from scratch the SII (Immediate Information System) invoice submission module in Frappe/ERPNext, complying with Spanish tax regulations.',
     'experience.iguanait.tasks.1':
-      'I developed modules at Frappe / ERPNext for sales management and tax calculation.',
+      'Developed modules for sales management and automatic tax calculation, optimizing the company\'s invoicing workflow.',
     'experience.iguanait.tasks.2':
-      'I participated in the maintenance and implementation of modules in Frappe / ERPNext for signature generation digital.',
+      'Implemented digital signature generation functionality for fiscal documents, ensuring authenticity and legal validity before the AEAT.',
 
     // Experience - jaelsolution
     'experience.jaelsolution.company': 'Jael Solution',
-    'experience.jaelsolution.position': 'Software Developer',
+    'experience.jaelsolution.position': 'Odoo Developer',
     'experience.jaelsolution.location': 'Dominican Republic',
     'experience.jaelsolution.tasks.0':
-      'Migrated and implemented Odoo modules from version 16 to 17 for the accounting department in the Dominican Republic.',
+      'Executed full migration of Odoo modules from v16 to v17 for the accounting department, ensuring compatibility with Dominican fiscal regulations.',
+    'experience.jaelsolution.tasks.1':
+      'Performed regression testing and post-migration functional validation, ensuring operational continuity with zero data loss.',
 
     // Experience - IdooGroup
-    'experience.idoogroup.company': 'IdooGroup',
-    'experience.idoogroup.position': 'Software Developer',
-    'experience.idoogroup.location': 'México',
+    'experience.idoogroup.company': 'idooGROUP Technologies',
+    'experience.idoogroup.position': 'Backend Odoo Developer',
+    'experience.idoogroup.location': 'Mexico',
     'experience.idoogroup.tasks.0':
-      'Participated in the development and implementation of software for integration with Flutter applications using CI/ CD in Docker.',
+      'Developed backend integrations between Odoo and Flutter mobile applications via REST APIs, improving data synchronization across systems.',
+    'experience.idoogroup.tasks.1':
+      'Implemented and maintained CI/CD pipelines with Docker, reducing deployment times and production errors.',
+    'experience.idoogroup.tasks.2':
+      'Automated continuous integration processes for multi-service environments, standardizing the team\'s development workflow.',
 
     // Experience - onreserva
-    'experience.onreserva.company': 'Reserva Trading España, SL',
-    'experience.onreserva.position': 'Software Developer',
-    'experience.onreserva.location': 'Madrid, Spain',
+    'experience.onreserva.company': 'Reserva Inc',
+    'experience.onreserva.position': 'Senior ERP Developer',
+    'experience.onreserva.location': 'Spain',
     'experience.onreserva.tasks.0':
-      'Participated in the development and implementation of custom modules.',
+      'Designed and implemented custom modules in Odoo 12 based on client functional specifications, meeting 100% of agreed delivery deadlines.',
+    'experience.onreserva.tasks.1':
+      'Collaborated with cross-functional teams to integrate new features into existing operational workflows, improving internal process traceability.',
+    'experience.onreserva.tasks.2':
+      'Optimized workflows through manual process automation, reducing repetitive tasks for the administrative team.',
   },
   es: {
     // Navigation
@@ -192,11 +199,9 @@ export const ui = {
     'intro.welcome': 'bienvenido',
     'intro.title':
       'Hola soy <b>Rafael Rubén Jorge González</b>. ' +
-      'Ingeniero en Ciencias Informáticas con experiencia laboral orientada al desarrollo ' +
-      'de software en Odoo y Frappe/ERPnext. Grandes habilidades en análisis de datos ' +
-      'y gestión de no conformidades; competente en diseño, desarrollo y ' +
-      'optimización de software brindando soluciones creativas y mejorando la ' +
-      'experiencia de usuario. Comprometido con la excelencia creativa y técnica.',
+      'Ingeniero en Ciencias Informáticas con más de 5 años de experiencia en el ciclo completo de desarrollo de soluciones ERP. ' +
+      'Especializado en Odoo (versiones 12–18) y Frappe/ERPNext, con dominio en diseño de módulos, ' +
+      'migraciones entre versiones, integración de APIs (REST, XML-RPC, JSON-RPC) y automatización de despliegues con Docker y CI/CD.',
 
     'intro.sr.github': 'Perfil de GitHub',
     'intro.sr.linkedin': 'Perfil de Linkedin',
@@ -205,7 +210,9 @@ export const ui = {
     // About Me
     'about.title': 'Acerca de mí',
     'about.description':
-      'Hola, soy Rafael Rubén Jorge González, un desarrollador de software Odoo de Cuba 🇨🇺.',
+      'Hola, soy Rafael Rubén Jorge González, Desarrollador ERP Senior de Cuba 🇨🇺. ' +
+      'He liderado e implementado soluciones funcionales para empresas en 5 países (Cuba, España, Perú, México, ' +
+      'República Dominicana) abarcando áreas de nómina, contabilidad, punto de venta, facturación electrónica y gestión comercial.',
     'about.tools': 'Mis herramientas principales incluyen:',
     'about.hobbies':
       'Más allá de la programación, disfruto jugar al ajedrez, leer novelas de ciencia ficción.',
@@ -214,7 +221,7 @@ export const ui = {
     'now.title': 'Ahora',
     'now.whatsThat': '¿qué es eso?',
     'now.description':
-      'Actualmente trabajando como desarrollador de software Odoo.',
+      'Actualmente trabajando como Desarrollador ERP Senior.',
 
     // Experience Card
     'experience.title': 'Experiencia',
@@ -259,9 +266,9 @@ export const ui = {
     '404.goHome': 'Volver al inicio',
 
     // Home Page
-    'home.title': 'Rafael Rubén - Computer Science Engineer',
+    'home.title': 'Rafael Rubén - Desarrollador ERP Senior | Odoo & Frappe/ERPNext',
     'home.description':
-      'Rafael Rubén Jorge González - Ingeniero en Ciencias de la Computación ' +
+      'Rafael Rubén Jorge González - Ingeniero en Ciencias Informáticas | Desarrollador ERP Senior ' +
       '- Portafolio, Proyectos, CV, Acerca de Mí, Contacto, Zona Horaria, Ahora, ' +
       'Experiencia, Estudios',
     'home.portfolio': 'Portafolio y Proyectos',
@@ -280,65 +287,75 @@ export const ui = {
     'experience.current': 'Actual',
 
     // Experience - Desoft
-    'experience.desoft.company': 'Desoft',
-    'experience.desoft.position': 'Ingeniero de software',
+    'experience.desoft.company': 'Desoft VC',
+    'experience.desoft.position': 'Desarrollador Odoo',
     'experience.desoft.location': 'Villa Clara, Cuba',
     'experience.desoft.tasks.0':
-      'Realicé el diseño e implementación de software en Odoo para la gestión de las horas de guardia y su cálculo en la nómina de Recursos Humanos.',
+      'Diseñé e implementé un módulo en Odoo para la gestión de horas de guardia y su integración automática en el cálculo de nómina de Recursos Humanos.',
     'experience.desoft.tasks.1':
-      'Participé en el mantenimiento e implementación de módulos en Odoo para la gestión de los alimentos, alcanzando el 100 por ciento de lo previsto en los planes de ejecución.',
+      'Implementé módulos para la gestión de costos en alimentos, alcanzando el 100% de cumplimiento de los planes de implementación.',
     'experience.desoft.tasks.2':
-      'Participé en el mantenimiento de módulos en Odoo para la gestión del proceso de contratación adaptándolo a las necesidades del cliente.',
+      'Personalicé el módulo de reclutamiento adaptándolo a los flujos y necesidades específicas de cada cliente.',
 
     // Experience - Peoplewalking
     'experience.peoplewalking.company': 'Peoplewalking',
-    'experience.peoplewalking.position': 'Ingeniero de software',
-    'experience.peoplewalking.location': 'Spain',
+    'experience.peoplewalking.position': 'Desarrollador Odoo',
+    'experience.peoplewalking.location': 'España',
     'experience.peoplewalking.tasks.0':
-      'Diseñé, investigué e implementé un módulo Odoo para la gestión de códigos de barras EAN 128, completado según lo previsto en los planes de implementación.',
+      'Investigué, diseñé e implementé un módulo Odoo para la gestión de códigos de barras EAN-128, entregado en el 100% del plazo planificado.',
     'experience.peoplewalking.tasks.1':
-      'Participé en el mantenimiento de los módulos de Odoo para la gestión de contactos y generación de informes según las necesidades del cliente.',
+      'Mantuve y optimicé módulos de gestión de contactos y generación de informes según requerimientos cambiantes del cliente.',
 
     // Experience - Soft System
     'experience.soft_system.company': 'Soft System',
-    'experience.soft_system.position': 'Ingeniero de software',
+    'experience.soft_system.position': 'Desarrollador Odoo',
     'experience.soft_system.location': 'Perú',
     'experience.soft_system.tasks.0':
-      'Participé en el desarrollo e implementación de software para la gestión de ventas en el punto de venta Odoo, aumento de la satisfacción del cliente.',
+      'Desarrollé funcionalidades para el módulo de Punto de Venta (POS) en Odoo, mejorando la experiencia de usuario y la velocidad de procesamiento de transacciones.',
     'experience.soft_system.tasks.1':
-      'Participé en el mantenimiento de los módulos de Odoo para adaptación en sus procesos y generación de reportes.',
+      'Adapté módulos existentes a los procesos comerciales locales y generé reportes personalizados (QWeb) para la toma de decisiones gerenciales.',
 
     // Experience - iguanait
     'experience.iguanait.company': 'Iguana IT',
-    'experience.iguanait.position': 'Ingeniero de software',
+    'experience.iguanait.position': 'Desarrollador Frappe/ERPNext',
     'experience.iguanait.location': 'España',
     'experience.iguanait.tasks.0':
-      'Realicé el diseño e implementación de software para la gestión de envío de facturas al SII en Frappe/ERPNext.',
+      'Diseñé e implementé desde cero el módulo de envío de facturas al SII (Sistema Inmediato de Información) en Frappe/ERPNext, cumpliendo con la normativa tributaria española.',
     'experience.iguanait.tasks.1':
-      'Desarrollé módulos en Frappe / ERPNext para gestión de ventas y cálculo de impuestos.',
+      'Desarrollé módulos para gestión de ventas y cálculo automático de impuestos, optimizando el flujo de facturación de la empresa.',
     'experience.iguanait.tasks.2':
-      'Participé en el mantenimiento e implementación de módulos en Frappe/ERPNext para generación de firma digital.',
+      'Implementé la funcionalidad de generación de firma digital para documentos fiscales, garantizando la autenticidad y validez legal ante la AEAT.',
 
     // Experience - jaelsolution
     'experience.jaelsolution.company': 'Jael Solution',
-    'experience.jaelsolution.position': 'Ingeniero de software',
+    'experience.jaelsolution.position': 'Desarrollador Odoo',
     'experience.jaelsolution.location': 'República Dominicana',
     'experience.jaelsolution.tasks.0':
-      'Migré e implementé módulos de Odoo de la versión 16 a 17 para el departamento de contabilidad en República Dominicana.',
+      'Ejecuté la migración completa de módulos de Odoo v16 a v17 para el departamento contable, garantizando compatibilidad con la normativa fiscal dominicana.',
+    'experience.jaelsolution.tasks.1':
+      'Realicé pruebas de regresión y validación funcional post-migración, asegurando la continuidad operativa sin pérdida de datos.',
 
     // Experience - IdooGroup
-    'experience.idoogroup.company': 'IdooGroup',
-    'experience.idoogroup.position': 'Ingeniero de software',
+    'experience.idoogroup.company': 'idooGROUP Technologies',
+    'experience.idoogroup.position': 'Desarrollador Backend Odoo',
     'experience.idoogroup.location': 'México',
     'experience.idoogroup.tasks.0':
-      'Participé en el desarrollo e implementación de software para la integración con aplicaciones Flutter usando CI/CD en Docker.',
+      'Desarrollé integraciones backend entre Odoo y aplicaciones móviles Flutter mediante APIs REST, mejorando la sincronización de datos entre sistemas.',
+    'experience.idoogroup.tasks.1':
+      'Implementé y mantuve pipelines de CI/CD con Docker, reduciendo tiempos de despliegue y errores en producción.',
+    'experience.idoogroup.tasks.2':
+      'Automanicé procesos de integración continua para entornos multi-servicio, estandarizando el flujo de desarrollo del equipo.',
 
     // Experience - onreserva
-    'experience.onreserva.company': 'Reserva Trading España, SL',
-    'experience.onreserva.position': 'Ingeniero de software',
-    'experience.onreserva.location': 'Madrid, España',
+    'experience.onreserva.company': 'Reserva Inc',
+    'experience.onreserva.position': 'Desarrollador ERP Senior',
+    'experience.onreserva.location': 'España',
     'experience.onreserva.tasks.0':
-      'Participó en el desarrollo e implementación de módulos personalizados.',
+      'Diseñé e implementé módulos personalizados en Odoo 12 según especificaciones funcionales del cliente, cumpliendo el 100% de los plazos de entrega acordados.',
+    'experience.onreserva.tasks.1':
+      'Colaboré con equipos multidisciplinarios para integrar nuevas funcionalidades al flujo operativo existente, mejorando la trazabilidad de procesos internos.',
+    'experience.onreserva.tasks.2':
+      'Optimicé flujos de trabajo mediante automatización de procesos manuales, reduciendo tareas repetitivas del equipo administrativo.',
   },
 } as const
 
