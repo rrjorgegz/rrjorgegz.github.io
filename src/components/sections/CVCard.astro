@@ -23,7 +23,9 @@ const PDF = lang === 'es' ? PDF_ES : PDF_EN
         <p class="text-sm text-muted-foreground">
           {t('cv.description')}
         </p>
-        <div class="card-actions mt-2 flex w-full items-center justify-center gap-2">
+        <div
+          class="card-actions mt-2 flex w-full items-center justify-center gap-2"
+        >
           <a target="_blank" href={PDF}>
             <Button>
               {t('cv.download')}

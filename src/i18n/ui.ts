@@ -152,7 +152,7 @@ export const ui = {
     'experience.iguanait.tasks.0':
       'Designed and implemented from scratch the SII (Immediate Information System) invoice submission module in Frappe/ERPNext, complying with Spanish tax regulations.',
     'experience.iguanait.tasks.1':
-      'Developed modules for sales management and automatic tax calculation, optimizing the company\'s invoicing workflow.',
+      "Developed modules for sales management and automatic tax calculation, optimizing the company's invoicing workflow.",
     'experience.iguanait.tasks.2':
       'Implemented digital signature generation functionality for fiscal documents, ensuring authenticity and legal validity before the AEAT.',
 
@@ -174,7 +174,7 @@ export const ui = {
     'experience.idoogroup.tasks.1':
       'Implemented and maintained CI/CD pipelines with Docker, reducing deployment times and production errors.',
     'experience.idoogroup.tasks.2':
-      'Automated continuous integration processes for multi-service environments, standardizing the team\'s development workflow.',
+      "Automated continuous integration processes for multi-service environments, standardizing the team's development workflow.",
 
     // Experience - onreserva
     'experience.onreserva.company': 'Reserva Inc',
@@ -220,8 +220,7 @@ export const ui = {
     // Now Card
     'now.title': 'Ahora',
     'now.whatsThat': '¿qué es eso?',
-    'now.description':
-      'Actualmente trabajando como Desarrollador ERP Senior.',
+    'now.description': 'Actualmente trabajando como Desarrollador ERP Senior.',
 
     // Experience Card
     'experience.title': 'Experiencia',
@@ -266,7 +265,8 @@ export const ui = {
     '404.goHome': 'Volver al inicio',
 
     // Home Page
-    'home.title': 'Rafael Rubén - Desarrollador ERP Senior | Odoo & Frappe/ERPNext',
+    'home.title':
+      'Rafael Rubén - Desarrollador ERP Senior | Odoo & Frappe/ERPNext',
     'home.description':
       'Rafael Rubén Jorge González - Ingeniero en Ciencias Informáticas | Desarrollador ERP Senior ' +
       '- Portafolio, Proyectos, CV, Acerca de Mí, Contacto, Zona Horaria, Ahora, ' +
